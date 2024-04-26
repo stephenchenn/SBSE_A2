@@ -1,0 +1,18 @@
+jar cfe helloworld.jar HelloWorld HelloWorld.class 
+java -jar helloworld.jar
+
+javac helloworld.java
+java HelloWorld
+
+java -jar GuiOptimiser.jar calculator.jar
+
+javac guioptimiser/*.java
+java -cp . guioptimiser.GuiOptimiser calculator.jar
+
+
+
+
+
+cd /home/stephen/SBSE_A2/GuiOptimiser/src
+javac geneticalgo/*.java
+java -cp . geneticalgo.GeneticAlgorithm
